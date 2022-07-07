@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('@/assets/fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+html {
+  font-family: Jost, sans-serif;
+}
