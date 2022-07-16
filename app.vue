@@ -1,8 +1,8 @@
 <template>
   <main class="main-layout">
-    <base-header />
+    <BaseHeader />
     <NuxtPage />
-    <base-footer />
+    <BaseFooter />
   </main>
 </template>
 

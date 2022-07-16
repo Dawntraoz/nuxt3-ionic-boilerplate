@@ -15,7 +15,11 @@ export default defineNuxtConfig({
             'A boilerplate for creating new Nuxt 3 Ionic applications with some basic functionalities.',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico', sizes: 'any' },
+        { rel: 'apple-touch-icon', href: '/favicon/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/favicon/site.webmanifest' }
+      ],
     },
   },
   css: [
