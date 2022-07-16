@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  ssr: false,
   app: {
      head: {
       titleTemplate: '%s | Nuxtion',
@@ -16,13 +17,14 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico', sizes: 'any' },
-        { rel: 'apple-touch-icon', href: '/favicon/apple-touch-icon.png' },
-        { rel: 'manifest', href: '/favicon/site.webmanifest' }
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: 'any' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/site.webmanifest' }
       ],
     },
   },
   css: [
     '@/assets/css/main.css',
-  ]
+  ],
+  modules: ['nuxt-ionic']
 })

@@ -1,0 +1,6 @@
+{
+  "appId": "io.nuxtion.boilerplate",
+  "appName": "Nuxtion",
+  "webDir": ".output/public",
+  "bundledWebRuntime": false
+}

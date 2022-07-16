@@ -6,3 +6,8 @@ node_modules
 .output
 .env
 dist
+.DS_Store
+
+# apps
+android
+ios
