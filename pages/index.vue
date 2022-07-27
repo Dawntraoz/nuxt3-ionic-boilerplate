@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-definePageMeta({
+useHead({
   title: 'Discover'
 })
 </script>

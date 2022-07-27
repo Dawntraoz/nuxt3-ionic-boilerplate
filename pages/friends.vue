@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-definePageMeta({
+useHead({
   title: 'Friends'
 })
 </script>

@@ -8,7 +8,9 @@ export default defineNuxtConfig({
       titleTemplate: '%s | Nuxtion',
       meta: [
         { charset: 'utf-8' },
+        { name: 'theme-color', content: '#040B19' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'color-scheme', content: 'dark' },
         {
           hid: 'description',
           name: 'description',
@@ -18,8 +20,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: 'any' },
-        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
-        { rel: 'manifest', href: '/site.webmanifest' }
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }
       ],
     },
   },

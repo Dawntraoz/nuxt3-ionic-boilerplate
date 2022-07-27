@@ -8,6 +8,12 @@ node_modules
 dist
 .DS_Store
 
-# apps
-android
-ios
+# apps or icon files autogerenated
+android/*
+ios/*
+resources/android/*
+resources/ios/*
+
+# exclude icon-foreground.png and icon-background.png
+!resources/android/icon-foreground.png
+!resources/android/icon-background.png

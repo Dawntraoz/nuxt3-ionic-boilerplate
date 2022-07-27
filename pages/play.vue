@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-definePageMeta({
-  title: 'Friends'
+useHead({
+  title: 'Play'
 })
 </script>
 
